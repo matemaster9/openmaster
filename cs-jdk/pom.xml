@@ -14,6 +14,7 @@
         <lombok.version>1.18.20</lombok.version>
         <lang3.version>3.12.0</lang3.version>
         <guava.version>31.0.1-jre</guava.version>
+        <junit.version>5.8.2</junit.version>
     </properties>
 
     <dependencies>
@@ -39,5 +40,13 @@
             <version>${guava.version}</version>
         </dependency>
 
+
+        <!--junit-->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 </project>
